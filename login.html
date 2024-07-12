@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($key === $correct_key) {
         $_SESSION['authenticated'] = true;
-        header('Location: index.php');
+        header('Location: index.html');
         exit;
     } else {
         echo 'Yanlış anahtar. Lütfen tekrar deneyin.';
