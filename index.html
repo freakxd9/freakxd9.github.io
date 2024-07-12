@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
-    header('Location: login.php');
+    header('Location: login.html');
     exit;
 }
 ?>
@@ -155,10 +155,10 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
     <ul class="menu">
         <a style="color: white;">☰ Menü</a>
         <li><a href="/">🏠 Dashboard</a></li>
-        <li><a href="process.php">📞 Tr Tell Pass Ayırıcı</a></li>
-        <li><a href="process2.php">📄 Txt Log Extractor</a></li>
-		<li><a href="process3.php">🔗 Url Silici</a></li>
-        <li><a href="process4.php">📚 Duplicates Silici</a></li>
+        <li><a href="process.html">📞 Tr Tell Pass Ayırıcı</a></li>
+        <li><a href="process2.html">📄 Txt Log Extractor</a></li>
+		<li><a href="process3.html">🔗 Url Silici</a></li>
+        <li><a href="process4.html">📚 Duplicates Silici</a></li>
     </ul>
 </div>
     <!-- Bootstrap JS and dependencies -->
